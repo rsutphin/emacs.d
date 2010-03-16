@@ -25,13 +25,13 @@
   (interactive)
   (color-theme-install
    '(color-theme-twilight
-     ((background-color . "black")
+     ((background-color . "#000000")
       (background-mode . dark)
       (border-color . "black")
       (cursor-color . "#A7A7A7")
       (foreground-color . "#F8F8F8")
       (mouse-color . "sienna1"))
-     (default ((t (:background "black" :foreground "white"))))
+     (default ((t (:background "#000000" :foreground "white"))))
      (blue ((t (:foreground "blue"))))
      (bold ((t (:bold t))))
      (bold-italic ((t (:bold t))))
