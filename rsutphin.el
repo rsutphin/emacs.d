@@ -6,3 +6,8 @@
 
 (global-auto-revert-mode 1)
 (global-whitespace-mode 1)
+
+(require 'real-auto-save)
+;; autosave everything
+(add-hook 'first-change-hook 'turn-on-real-auto-save)
+(setq real-auto-save-interval 3)
